@@ -27,10 +27,10 @@ function currentLine(){
   } else {
     var lineUp = [];
     for (var i = 0; i < currentLine.length; i++) {
-      lineUp.push(`${i+1}`);
-      LineUp.push(`${currentLine[i]}`);
+      lineUp.push(i+1);
+      LineUp.push(currentLine[i]);
     }
-    return ("The line is currently:" + lineUp); 
+    return ("The line is currently:" + lineUp);
   }
 }
 
