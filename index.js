@@ -28,8 +28,8 @@ function currentLine(){
     var lineUp = [];
     for (var i = 0; i < currentLine.length; i++) {
       lineUp.push(`$(i+1). ${currentLine[i]}`);
-    }
-    return ("The line is currently:" + lineUp);
+      return ("The line is currently:" + lineUp);
+    }    
   }
 }
 
