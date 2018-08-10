@@ -23,7 +23,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(){
   if (currentLine.length === 0 ) {
-    return 'The line is currently empty.';
+    return ('The line is currently empty.');
   } else {
     var lineUp = [];
     for (var i = 0; i < currentLine.length; i++) {
