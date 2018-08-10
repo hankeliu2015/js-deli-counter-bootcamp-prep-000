@@ -30,7 +30,7 @@ function currentLine(){
       lineUp.push(`${i+1}`);
       LineUp.push(`${currentLine[i]}`);
     }
-    console.log("The line is currently:" + lineUp)
+    return ("The line is currently:" + lineUp); 
   }
 }
 
